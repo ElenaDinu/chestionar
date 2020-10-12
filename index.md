@@ -1,9 +1,10 @@
-﻿<html style="font-size: larger;font-size: 25;backface-visibility: 100%;backface-visibility: initial;border size: 100px;background-color: #7c7c981f;background-image: ED_logo.png;opacity: 0.4;background-image: url(ED_logo.png);background-repeat: no-repeat;background-size: 100%;"><head>
+﻿<html style="font-size: larger;font-size: 25;backface-visibility: 100%;backface-visibility: initial;border size: 100px;background-color: #7c7c981f;opacity: 1;background-repeat: repeat;background-size: 100%;"><head>
 
 
   <title>Chestionar satisfactie clienti</title>
   
   <script>
+ 
 
     var a=1;
     function mesaj_raspuns() {
@@ -11,15 +12,14 @@
      
       var pElement = document.getElementById("submit");
 
- 
- <html style="
-    background-color: #0000ff33;
-    font-size: larger;">
+  display: inline;
 
-pElement.innerHTML = "Multumim pentru raspunsuri si timpul acordat" </h1>
+
+pElement.innerHTML  = "Multumim pentru raspunsuri si timpul acordat" </h1>
+
 
     }
-    
+  
     </script>
 	</head>
 
