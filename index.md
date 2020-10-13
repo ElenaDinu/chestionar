@@ -12,7 +12,7 @@
      
       var pElement = document.getElementById("submit");
 
-  display: inline;
+
 
 
 pElement.innerHTML  = "Multumim pentru raspunsuri si timpul acordat" </h1>
@@ -25,7 +25,7 @@ pElement.innerHTML  = "Multumim pentru raspunsuri si timpul acordat" </h1>
 
 
 		<body>
-
+<form action="save" >
 
 
 		<h3>Chestionar satisfactie client</h3>
@@ -45,156 +45,158 @@ pElement.innerHTML  = "Multumim pentru raspunsuri si timpul acordat" </h1>
 
 
 
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="1" name="a)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Nesatisfacator</label>
-</div>
-
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="2" name="a)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Satisfacator</label>
-</div>
-
-
- <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="3" name="a)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline3">Bine</label>
-</div>
-
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="4" name="a)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline4">Foarte bine</label>
-</div>
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
 
   <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="5" name="a)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline5">Excelent</label>
-</div>
+<input type="radio" name="INTREBARE_A"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_A"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+ 
 <br>		
 <div class="card b">
   <div class="card-body b">
     b)	Cum evaluati promptitudinea cu care echipa noastra a intervenit?
   </div>
 </div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="1" name="b)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Nesatisfacator</label>
-</div>
 
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="2" name="b)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Satisfacator</label>
-</div>
-
-
- <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="3" name="b)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline3">Bine</label>
-</div>
-
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="4" name="b)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline4">Foarte bine</label>
-</div>
+<input type="radio" name="INTREBARE_B"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
 
   <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="5" name="b)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline5">Excelent</label>
-</div>
+<input type="radio" name="INTREBARE_B"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_B"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+
 <br>
 <div class="card c">
   <div class="card-body c">
     c)	Cum evaluati disponibilitatea si profesionalismul personalului de interventie?
   </div>
 </div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="1" name="c)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Nesatisfacator</label>
-</div>
 
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="2" name="c)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Satisfacator</label>
-</div>
-
-
- <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="3" name="c)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline3">Bine</label>
-</div>
-
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="4" name="c)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline4">Foarte bine</label>
-</div>
+<input type="radio" name="INTREBARE_C"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
 
   <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="5" name="c)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline5">Excelent</label>
-</div>
+<input type="radio" name="INTREBARE_C"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_C"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
 <br>
 <div class="card d">
   <div class="card-body d">
    d)	Cum evaluati activitatea echipei din perspectiva curateniei si a modului de lucru?
   </div>
 </div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="1" name="d)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Nesatisfacator</label>
-</div>
 
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="2" name="d)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Satisfacator</label>
-</div>
-
-
- <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="3" name="d)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline3">Bine</label>
-</div>
-
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="4" name="d)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline4">Foarte bine</label>
-</div>
+<input type="radio" name="INTREBARE_D"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
 
   <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="5" name="d)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline5">Excelent</label>
-</div>
+<input type="radio" name="INTREBARE_D"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_D"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+
 <br>
 <div class="card e">
   <div class="card-body e">
   e)	Cum evaluati tinuta si dotarile tehnice ale echipei?
   </div>
 </div>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="1" name="e)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Nesatisfacator</label>
-</div>
 
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="2" name="e)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Satisfacator</label>
-</div>
-
-
- <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="3" name="e)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline3">Bine</label>
-</div>
-
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="4" name="e)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline4">Foarte bine</label>
-</div>
+<input type="radio" name="INTREBARE_E"  value="Nesatisfacator"  class="custom-control-input">
+   <label>Nesatisfacator</label>
+    </div>
 
   <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="5" name="e)" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline5">Excelent</label>
-</div>
-</br>
+<input type="radio" name="INTREBARE_E"  value="Satisfacator"  class="custom-control-input">
+   <label>Satisfacator</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Bine"  class="custom-control-input">
+   <label>Bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Foarte bine"  class="custom-control-input">
+   <label>Foarte bine</label>
+    </div>
+
+  <div class="custom-control custom-radio custom-control-inline">
+<input type="radio" name="INTREBARE_E"  value="Excelent"  class="custom-control-input">
+   <label>Excelent</label>
+    </div>
+
 <div class="card f">
   <div class="card-body f">
   f)	Ce sugestii sau recomandari ne puteti oferi in ceea ce priveste imbunatatirea serviciilor sau a modului de lucru?
@@ -217,7 +219,7 @@ pElement.innerHTML  = "Multumim pentru raspunsuri si timpul acordat" </h1>
 
 </p>
 
-
+</form>
 
 		</body>
 
